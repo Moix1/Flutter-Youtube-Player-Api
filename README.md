@@ -8,7 +8,8 @@ It is basic youtube video player which creates using Flutter with the help of Yo
 const String API_KEY = 'Paste HERE Your Youtube Api Key';
 ----------------------------------------------------------
 
-How to setup Youtube Data Api v3 Key in your project is very easy for getting the key:
+# How to setup Youtube Data Api v3 Key in your project is very easy for getting the key:
+
 -  Go to https://console.developers.google.com
 -  Create project there with any name "Youtube Data Api"
 -  Go to Api Library
@@ -27,6 +28,14 @@ How to setup Youtube Data Api v3 Key in your project is very easy for getting th
 It's time to paste your copied key inside lib->utilities->keys.dart 
 
 const String API_KEY = 'Paste HERE Your Youtube Api Key';
+---------------------------------------------------------
+
+# For iOS please do this
+For iOS users please setup youtube player plugin in your flutter app like this:
+
+Opt-in to the embedded views preview by adding a boolean property to the app's Info.plist file with the key io.flutter.embedded_views_preview and the value YES.
+
+No need this for Android
 ---------------------------------------------------------
 
 You all good to go!
