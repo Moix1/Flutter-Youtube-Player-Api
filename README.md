@@ -9,20 +9,20 @@ const String API_KEY = 'Paste HERE Your Youtube Api Key';
 ----------------------------------------------------------
 
 How to setup Youtube Data Api v3 Key in your project is very easy for getting the key:
-1:  Go to https://console.developers.google.com
-2:  Create project there with any name "Youtube Data Api"
-3:  Go to Api Library
-4:  Search Youtube, you will get Youtube Data V3 click on it
-5:  Enable it
-6:  Click on Create Credentials button at top right side
-7:  Choose Youtube Data Api V3 and then you will see another option called 'Where you will be able to calling the API from?' select Either     iOS or Android
-8:  Now check on Public Data
-9:  Click on What credentials do i need?
-10: You will see key now just COPY it
-11: Click on Done NOT done yet next
-12: Scroll Down you will see Restrict Key radio button, select it
-13: Select api which will be like Youtube Api Data V3
-14: Now Click on Save.
+-  Go to https://console.developers.google.com
+-  Create project there with any name "Youtube Data Api"
+-  Go to Api Library
+-  Search Youtube, you will get Youtube Data V3 click on it
+-  Enable it
+-  Click on Create Credentials button at top right side
+-  Choose Youtube Data Api V3 and then you will see another option called 'Where you will be able to calling the API from?' select    Either     iOS or Android
+-  Now check on Public Data
+-  Click on What credentials do i need?
+- You will see key now just COPY it
+- Click on Done NOT done yet next
+- Scroll Down you will see Restrict Key radio button, select it
+- Select api which will be like Youtube Api Data V3
+- Now Click on Save.
 
 It's time to paste your copied key inside lib->utilities->keys.dart 
 
